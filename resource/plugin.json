@@ -62,10 +62,10 @@
          "title":"Task manager",
          "name":"task_manager",
          "ps":"<p>Easily manage processes, startup items, users, services, scheduled tasks, ssh sessions <a class=\"btlink\" href=\"https://forum.aapanel.com/d/4781-task-manager-use-help\" target=\"_blank\" rel=\"noopener\">&gt;&gt; Help</a></p>",
-         "panel_pro":0,
-         "panel_ltd":0,
-         "panel_free":0,
-         "panel_test":0,
+         "panel_pro":1,
+         "panel_ltd":1,
+         "panel_free":1,
+         "panel_test":1,
          "version":"0",
          "s_version":"0",
          "manager_version":"1",
@@ -78,7 +78,7 @@
          "version_coexist":0,
          "icon":"",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -102,10 +102,10 @@
          "title":"Node.js version manager",
          "name":"nodejs",
          "ps":"<p>Install, uninstall, configure node.js version, mutually exclusive with PM2 manager</p>",
-         "panel_pro":0,
-         "panel_ltd":0,
-         "panel_free":0,
-         "panel_test":0,
+         "panel_pro":1,
+         "panel_ltd":1,
+         "panel_free":1,
+         "panel_test":1,
          "version":"0",
          "s_version":"0",
          "manager_version":"1",
@@ -118,7 +118,7 @@
          "version_coexist":0,
          "icon":"",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -142,10 +142,10 @@
          "title":"Apache WAF",
          "name":"btwaf_httpd",
          "ps":"<p>Mitigating DDOS attacks, easily creating custom rules, protecting your website and reducing the risk of malicious attacks and data leakage <a class=\"btlink\" href=\"https://forum.aapanel.com/d/4972-apache-waf-instructions\" target=\"_blank\" rel=\"noopener\">&gt;&gt; Help</a></p>",
-         "panel_pro":0,
+         "panel_pro":1,
          "panel_ltd":1,
-         "panel_free":0,
-         "panel_test":0,
+         "panel_free":1,
+         "panel_test":1,
          "version":"0",
          "s_version":"0",
          "manager_version":"1",
@@ -158,7 +158,7 @@
          "version_coexist":0,
          "icon":"",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -182,10 +182,10 @@
          "title":"Nginx WAF",
          "name":"btwaf",
          "ps":"<p>Mitigating DDOS attacks, easily creating custom rules, protecting your website and reducing the risk of malicious attacks and data leakage, it is recommended to use Nginx 1.18 and above &nbsp;<a class=\"btlink\" href=\"https://forum.aapanel.com/d/3351-3351-nginx-waf-instructions\" target=\"_blank\" rel=\"noopener\">&gt;&gt; Help</a></p>",
-         "panel_pro":0,
+         "panel_pro":1,
          "panel_ltd":1,
-         "panel_free":0,
-         "panel_test":0,
+         "panel_free":1,
+         "panel_test":1,
          "version":"0",
          "s_version":"0",
          "manager_version":"1",
@@ -198,7 +198,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -222,10 +222,10 @@
          "title":"aaPanel Mobile",
          "name":"btapp",
          "ps":"<p>Easily manage your server anytime, anywhere via mobile<a class=\"btlink\" href=\"https://forum.aapanel.com/d/3527-aapanel-mobile\" target=\"_blank\" rel=\"noopener\"> &gt;&gt; Help</a></p>",
-         "panel_pro":0,
+         "panel_pro":1,
          "panel_ltd":1,
-         "panel_free":0,
-         "panel_test":0,
+         "panel_free":1,
+         "panel_test":1,
          "version":"0",
          "s_version":"0",
          "manager_version":"1",
@@ -238,7 +238,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -262,10 +262,10 @@
          "title":"Website statistics",
          "name":"total",
          "ps":"<p>Statistics and comparison of website traffic, ip, uv, pv, request, spider and other data. (Currently only supports Nginx and Apache,Ubuntu and Centos)<span style=\"color: #ff0000;\">&nbsp;</span><a class=\"btlink\" href=\"https://forum.aapanel.com/d/3789-website-statistics-instructions\" target=\"_blank\" rel=\"noopener\"> &gt;&gt;</a><strong><a class=\"btlink\" href=\"https://forum.aapanel.com/d/3789-website-statistics-instructions\" target=\"_blank\" rel=\"noopener\"> </a></strong><a class=\"btlink\" href=\"https://forum.aapanel.com/d/3789-website-statistics-instructions\" target=\"_blank\" rel=\"noopener\">Help</a></p>",
-         "panel_pro":0,
+         "panel_pro":1,
          "panel_ltd":1,
-         "panel_free":0,
-         "panel_test":0,
+         "panel_free":1,
+         "panel_test":1,
          "version":"0",
          "s_version":"0",
          "manager_version":"1",
@@ -278,7 +278,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -302,10 +302,10 @@
          "title":"Sync Tool",
          "name":"rsync",
          "ps":"<p>Real-time/timing data synchronization tool based on rsync<strong> </strong><a class=\"btlink\" href=\"https://forum.aapanel.com/d/4113-how-to-use-sync-tool\" target=\"_blank\" rel=\"noopener\"> &gt;&gt; Help</a></p>",
-         "panel_pro":0,
+         "panel_pro":1,
          "panel_ltd":1,
-         "panel_free":0,
-         "panel_test":0,
+         "panel_free":1,
+         "panel_test":1,
          "version":"0",
          "s_version":"0",
          "manager_version":"1",
@@ -318,7 +318,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -342,10 +342,10 @@
          "title":"Website Tamper-proof",
          "name":"tamper_proof",
          "ps":"<p>Event-type Tamper-proof, which can effectively protect important website files from being tampered <a class=\"btlink\" href=\"https://forum.aapanel.com/d/4125-how-to-use-website-tamper-proof\" target=\"_blank\" rel=\"noopener\">&gt;&gt; Help</a></p>",
-         "panel_pro":0,
+         "panel_pro":1,
          "panel_ltd":1,
-         "panel_free":0,
-         "panel_test":0,
+         "panel_free":1,
+         "panel_test":1,
          "version":"0",
          "s_version":"0",
          "manager_version":"1",
@@ -358,7 +358,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -382,10 +382,10 @@
          "title":"Load balance",
          "name":"load_balance",
          "ps":"<p>Load balancing based on nginx, please install nginx before use <a class=\"btlink\" href=\"https://forum.aapanel.com/d/4252-how-to-use-load-balance-plugin\" target=\"_blank\" rel=\"noopener\">&gt;&gt; Help</a></p>",
-         "panel_pro":0,
+         "panel_pro":1,
          "panel_ltd":1,
-         "panel_free":0,
-         "panel_test":0,
+         "panel_free":1,
+         "panel_test":1,
          "version":"0",
          "s_version":"0",
          "manager_version":"1",
@@ -398,7 +398,7 @@
          "version_coexist":0,
          "icon":"",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -422,10 +422,10 @@
          "title":"Abnormal Push",
          "name":"msg_push",
          "ps":"<p>Abnormal push notifications, which can monitor and push the status of server resources, sites, SSL expiration time, etc.</p>",
-         "panel_pro":0,
+         "panel_pro":1,
          "panel_ltd":1,
-         "panel_free":0,
-         "panel_test":0,
+         "panel_free":1,
+         "panel_test":1,
          "version":"0",
          "s_version":"0",
          "manager_version":"1",
@@ -438,7 +438,7 @@
          "version_coexist":0,
          "icon":"",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -462,10 +462,10 @@
          "title":"System hardening",
          "name":"syssafe",
          "ps":"<p>Provide flexible reinforcement functions to effectively prevent malicious intrusion</p>",
-         "panel_pro":0,
+         "panel_pro":1,
          "panel_ltd":1,
-         "panel_free":0,
-         "panel_test":0,
+         "panel_free":1,
+         "panel_test":1,
          "version":"0",
          "s_version":"0",
          "manager_version":"1",
@@ -478,7 +478,7 @@
          "version_coexist":0,
          "icon":"",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -502,10 +502,10 @@
          "title":"IP setup tool",
          "name":"ip_configuration",
          "ps":"<p>Network card binding IP,Support system:CENTOS7/DEBIAN10/UBUNTU18/UBUNTU20</p>",
-         "panel_pro":0,
-         "panel_ltd":0,
-         "panel_free":0,
-         "panel_test":0,
+         "panel_pro":1,
+         "panel_ltd":1,
+         "panel_free":1,
+         "panel_test":1,
          "version":"0",
          "s_version":"0",
          "manager_version":"1",
@@ -518,7 +518,7 @@
          "version_coexist":0,
          "icon":"",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -558,7 +558,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -706,7 +706,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -755,7 +755,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -912,7 +912,7 @@
          "version_coexist":1,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -1051,7 +1051,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -1091,7 +1091,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -1176,7 +1176,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -1216,7 +1216,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -1256,7 +1256,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -1296,7 +1296,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -1336,7 +1336,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -1376,7 +1376,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -1416,7 +1416,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -1456,7 +1456,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -1496,7 +1496,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -1536,7 +1536,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -1576,7 +1576,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -1600,10 +1600,10 @@
          "title":"Cloud dns",
          "name":"cloud_dns",
          "ps":"<p>Manage your cloud DNS resolution (Support: Cloudflare/DnsPods/Aliyun)</p>",
-         "panel_pro":0,
-         "panel_ltd":0,
-         "panel_free":0,
-         "panel_test":0,
+         "panel_pro":1,
+         "panel_ltd":1,
+         "panel_free":1,
+         "panel_test":1,
          "version":"0",
          "s_version":"0",
          "manager_version":"1",
@@ -1616,7 +1616,7 @@
          "version_coexist":0,
          "icon":"",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -1656,7 +1656,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -1680,10 +1680,10 @@
          "title":"Anti-intrusion",
          "name":"bt_security",
          "ps":"<p>Effective defense against intrusion into the system through processes such as websites, redis, mysql, etc.</p>",
-         "panel_pro":0,
+         "panel_pro":1,
          "panel_ltd":1,
-         "panel_free":0,
-         "panel_test":0,
+         "panel_free":1,
+         "panel_test":1,
          "version":"0",
          "s_version":"0",
          "manager_version":"1",
@@ -1696,7 +1696,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -1720,10 +1720,10 @@
          "title":"NFS Manager",
          "name":"nfs_tools",
          "ps":"<p>File sharing based on NFS service, including creating shares and mounting remote NFS</p>",
-         "panel_pro":0,
+         "panel_pro":1,
          "panel_ltd":1,
-         "panel_free":0,
-         "panel_test":0,
+         "panel_free":1,
+         "panel_test":1,
          "version":"0",
          "s_version":"0",
          "manager_version":"1",
@@ -1736,7 +1736,7 @@
          "version_coexist":0,
          "icon":"",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -1776,7 +1776,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -1816,7 +1816,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -1856,7 +1856,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -1896,7 +1896,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -1936,7 +1936,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -1976,7 +1976,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -2016,7 +2016,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -2056,7 +2056,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -2096,7 +2096,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -2136,7 +2136,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -2176,7 +2176,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -2216,7 +2216,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -2256,7 +2256,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -2296,7 +2296,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
@@ -2336,7 +2336,7 @@
          "version_coexist":0,
          "icon":"icon",
          "count":0,
-         "endtime":4102444799,
+         "endtime": 999999999999,
          "authorization_sn":null,
          "versions":[
             {
