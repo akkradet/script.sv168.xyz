@@ -559,7 +559,7 @@ var soft = {
             var ltd = parseInt(bt.get_cookie('ltd_end') || -1),pro = parseInt(bt.get_cookie('pro_end')  || -1),todayDate = parseInt(new Date().getTime()/1000),_ltd = null;
             if((ltd > 0 && (ltd == pro || pro < 0)) || (ltd < 0 && pro >= 0) || (ltd > 0 && pro >= 0)){
                 _ltd = ((ltd > 0 && (ltd == pro || pro < 0)) || (ltd > 0 && pro >= 0))?1:0;
-                explain.html('bản '+ (_ltd?'Pro':'Pro') +' một '+ (_ltd?'专业版及企业版插件':'phiên bản giới hạn,') + (!(pro == 0 && ltd < 0)?('expiration time: '+ (bt.format_data((_ltd?ltd:pro),'yyyy/MM/dd') ) +''+((((_ltd?ltd:pro) - todayDate) <= 15*24*60*60)?('，<span style="color:red">Only '+ Math.round(((_ltd?ltd:pro) - todayDate) / (24*60*60)) +' days until expiration</span>'):'')):'thời hạn sử dụng：<span style="color: #fc6d26;font-weight: bold;">vĩnh viễn nhé</span>'));
+                explain.html('The '+ (_ltd?'Pro':'Pro') +' dition can use the '+ (_ltd?'专业版及企业版插件':'professional plug-in for free,') + (!(pro == 0 && ltd < 0)?('expiration time: '+ (bt.format_data((_ltd?ltd:pro),'yyyy/MM/dd') ) +''+((((_ltd?ltd:pro) - todayDate) <= 15*24*60*60)?('，<span style="color:red">Only '+ Math.round(((_ltd?ltd:pro) - todayDate) / (24*60*60)) +' days until expiration</span>'):'')):'expiry date：<span style="color: #fc6d26;font-weight: bold;">Lifetime</span>'));
             }else if(ltd == -1 && pro == -1){
                 explain.html('Upgrade to Pro edition, all plugins, free to use!');
             }else if(pro == 0 && ltd < 0){
@@ -597,8 +597,8 @@ var soft = {
               $(el).append(tips_info.addClass(_ltd == 1?'alert-ltd-success':'alert-success'));
               if(_this.trail){
                 setTimeout(function (){
-                  $('.btn-ground').after('<span class="pro_trail" style="font-weight: 700;margin-left:25px;">liên hệ với admin tool</span>')
-                  var trail = $('<a href=\"https://www.facebook.com/i.am.thai.ok\" style="margin-left:10px;">ấn vào đây</a>');
+                  $('.btn-ground').after('<span class="pro_trail" style="font-weight: 700;margin-left:25px;">Contact Admin tool</span>')
+                  var trail = $('<a href=\"https://www.facebook.com/\" style="margin-left:10px;">Click here</a>');
                   trail.click((!res.status || !res)?fun:function(){
                     var loadT = bt.load()
                     bt.confirm({
