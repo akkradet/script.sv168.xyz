@@ -526,9 +526,9 @@ var soft = {
         if(type != 11) $(el).next('.onekey-menu-sub').remove();
         if(type == 10){
             $(el).css('display','block')
-            explain.text('admin tool khuyến nghị không cài cái app tệ hại bên dưới');
+            explain.text('Security Reminder: aaPanel officially conducted a security audit before the third-party plug-in was put on the shelves, but there may be security risks. Please check it out before using it in the production environment.');
             btn_ground = soft.render_tips_btn(btn_ground,[
-                {title:'Zalo admin',rel:'noreferrer noopener',href:'https://zalo.me/0968343658',target:'_blank',btn:'Zalo admin',class:'btn btn-success btn-xs va0 ml15',style:"margin-left:10px;"},
+                {title:'Get third-party apps',rel:'noreferrer noopener',href:'https://www.bt.cn/bbs/forum-40-1.html',target:'_blank',btn:'Get third-party apps',class:'btn btn-success btn-xs va0 ml15',style:"margin-left:10px;"},
                 {title:'Import plugins',href:'javascript:;',btn:'Import plugins','class':'btn btn-success btn-xs va0 ml15','style':"margin-left:10px;",click:function(e){
                     var input = $('<input type="file" style="display:none;" accept=".zip,.tar.gz" id="update_zip" multiple="multiple">').change(function (e) {
                         var files =$(this)[0].files;
@@ -559,7 +559,7 @@ var soft = {
             var ltd = parseInt(bt.get_cookie('ltd_end') || -1),pro = parseInt(bt.get_cookie('pro_end')  || -1),todayDate = parseInt(new Date().getTime()/1000),_ltd = null;
             if((ltd > 0 && (ltd == pro || pro < 0)) || (ltd < 0 && pro >= 0) || (ltd > 0 && pro >= 0)){
                 _ltd = ((ltd > 0 && (ltd == pro || pro < 0)) || (ltd > 0 && pro >= 0))?1:0;
-                explain.html('The '+ (_ltd?'Pro':'Pro') +' dition can use the '+ (_ltd?'专业版及企业版插件':'professional plug-in for free,') + (!(pro == 0 && ltd < 0)?('expiration time: '+ (bt.format_data((_ltd?ltd:pro),'yyyy/MM/dd') ) +''+((((_ltd?ltd:pro) - todayDate) <= 15*24*60*60)?('，<span style="color:red">Only '+ Math.round(((_ltd?ltd:pro) - todayDate) / (24*60*60)) +' days until expiration</span>'):'')):'expiry date：<span style="color: #fc6d26;font-weight: bold;">Lifetime</span>'));
+                explain.html('Pro plugin') + (!(pro == 0 && ltd < 0)?('expiration time: '+ (bt.format_data((_ltd?ltd:pro),'yyyy/MM/dd') ) +''+((((_ltd?ltd:pro) - todayDate) <= 15*24*60*60)?('，<span style="color:red">Only '+ Math.round(((_ltd?ltd:pro) - todayDate) / (24*60*60)) +' days until expiration</span>'):'')):'expiry date：<span style="color: #fc6d26;font-weight: bold;">Expired: Lifetime</span>'));
             }else if(ltd == -1 && pro == -1){
                 explain.html('Upgrade to Pro edition, all plugins, free to use!');
             }else if(pro == 0 && ltd < 0){
@@ -583,7 +583,7 @@ var soft = {
                 $.extend(btn_config,{title:'Login',btn:'Login',click:fun});
               }else{
                 if(type == 12 && (ltd < 0 && pro >=0)){
-                  explain.html('Phiên bản Doanh nghiệp có thể sử dụng miễn phí các trình cắm của Phiên bản Professional và Phiên bản Doanh nghiệp. Để hiểu sự khác biệt giữa Phiên bản Chuyên nghiệp và Phiên bản Doanh nghiệp, vui lòng nhấp vào<a href="https://www.bt.cn/download/linux.html" target="_blank" class="btlink ml5">kiểm tra các chi tiết</a>。<a href="https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=50342&page=1&extra=#pid179211" target="_blank" class="btlink ml5">《专业版升级企业版教程》</a>');
+                  explain.html('The Enterprise Edition can use the Professional Edition and Enterprise Edition plug-ins for free. To understand the difference between the Professional Edition and the Enterprise Edition, please click<a href="https://www.bt.cn/download/linux.html" target="_blank" class="btlink ml5">kiểm tra các chi tiết</a>。<a href="https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=50342&page=1&extra=#pid179211" target="_blank" class="btlink ml5">《专业版升级企业版教程》</a>');
                   $(el).append(tips_info.addClass('alert-ltd-success'));
                   return false;
                 }else{
@@ -603,7 +603,7 @@ var soft = {
                     var loadT = bt.load()
                     bt.confirm({
                       title:"Pro Edition",
-                      msg:"gói pro rồi không cần mua nữa"
+                      msg:"Pro Edition"
                     },function (){
                       bt.send('free_trial','auth/free_trial',{},function(res){
                         loadT.close()
